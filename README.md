@@ -13,7 +13,7 @@ PDPermission
   	}
 
   	dependencies {
-  		compile 'com.github.pdliugithub:PDPermission:v1.0'
+  		compile 'com.github.pdliugithub:PDPermission:v1.1.1'
   	}
 ```
 > Medal
