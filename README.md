@@ -53,7 +53,9 @@ PDPermission
   	  	  	//Add the line code
   	  	  	mPermissionManager.requestPermissionSingleResult(requestCode, permissions, grantResults);
   	  	}
+
   	  	```
+
 >二、Request many permission.
 ```ruby
   	  	//New PermissionManager instance.
