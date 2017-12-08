@@ -17,8 +17,9 @@ PDPermission
   	}
 ```
 >Usage
-```ruby
-  	一、Request single permission.
+
+>一、Request single permission.
+  	```ruby
   	  	//New PermissionManager instance.
   	  	mPermissionManager = PermissionManager.newInstance();
 
@@ -52,7 +53,9 @@ PDPermission
   	  	  	//Add the line code
   	  	  	mPermissionManager.requestPermissionSingleResult(requestCode, permissions, grantResults);
   	  	}
-  	二、Request many permission.
+  	  	```
+>二、Request many permission.
+```ruby
   	  	//New PermissionManager instance.
   	  	mPermissionManager = PermissionManager.newInstance();
 
