@@ -19,6 +19,7 @@ PDPermission
 >Usage
 
 >一、Request single permission.
+
   	```ruby
   	  	//New PermissionManager instance.
   	  	mPermissionManager = PermissionManager.newInstance();
@@ -57,7 +58,7 @@ PDPermission
   	  	```
 
 >二、Request many permission.
-```ruby
+  	```ruby
   	  	//New PermissionManager instance.
   	  	mPermissionManager = PermissionManager.newInstance();
 
@@ -97,8 +98,7 @@ PDPermission
   	  	  	mPermissionManager.requestPermissionManyResult(requestCode, permissions, grantResults);
   	  	}
 
-
-```
+  	  	```
 >  Note: When you use a checkPermissionSingle, you can also use checkPermissionMany.
   	  	  	But i don't recommend it and you should make a distinction.
 
